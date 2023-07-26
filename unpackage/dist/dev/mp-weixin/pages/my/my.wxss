@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.userCard {
+  margin-top: 35.09rpx;
+  margin-left: 31.58rpx;
+}
+.userCard .userAvatar {
+  height: 175.44rpx;
+  width: 175.44rpx;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  overflow: hidden;
+  display: inline-block;
+}
+.userCard .userAvatar image {
+  width: 176rpx;
+}
+.userCard .userInfo {
+  color: #0D0D0D;
+  margin-left: 38.6rpx;
+  display: inline-block;
+  vertical-align: top;
+}
+.userCard .userInfo .firstLine .userName {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  display: inline-block;
+}
+.userCard .userInfo .firstLine .personalInfo {
+  margin-left: 187.72rpx;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  vertical-align: top;
+}
+.userCard .userInfo .secondLine .ipDependency {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  display: inline-block;
+}
+.userCard .userInfo .secondLine .uidNum {
+  margin-left: 65rpx;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  display: inline-block;
+}
+.userCard .userInfo .thirdLine {
+  margin-top: 20rpx;
+}
+.userCard .userInfo .thirdLine .grayCircle {
+  height: 38.6rpx;
+  width: 38.6rpx;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  margin-right: 10.53rpx;
+  display: inline-block;
+}
+.userCard .userInfo .forthLine .infoNum {
+  margin-right: 77.2rpx;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  display: inline-block;
+}
+.userCard .userInfo .forthLine .infoNum:last-child {
+  margin-right: 0;
+}
+.functionCard {
+  margin-left: 49.12rpx;
+  margin-top: 61.4rpx;
+}
+.functionCard .functionCardBackground {
+  height: 140.35rpx;
+  width: 140.35rpx;
+  background-color: #fff;
+  border-radius: 17.54rpx;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin-right: 29.8rpx;
+  display: inline-block;
+}
+.functionCard .functionCardBackground .tablerIcon {
+  width: 42.1rpx;
+  margin-top: 35rpx;
+}
+.functionCard .functionCardBackground .tablerName {
+  font-size: 21rpx;
+  letter-spacing: 0.1em;
+}
+.functionCard .functionCardBackground:last-child {
+  margin-right: 0;
+}
+.tabBar {
+  width: 701rpx;
+  height: 70.175rpx;
+  margin-left: 24.5rpx;
+  margin-top: 35rpx;
+  border-radius: 17.54rpx;
+  background-color: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.tabBar .v-tabs {
+  border-radius: 17.54rpx;
+}
+.news {
+  -webkit-column-count: 2;
+          column-count: 2;
+  margin-left: 24.5rpx;
+  margin-right: 24.5rpx;
+  margin-top: 35rpx;
+}
+.news .newsCard {
+  display: inline-block;
+  margin-bottom: 34.21rpx;
+}
+.news .newsCard .newsCardImg .newsCardImgContent {
+  width: 333.33rpx;
+  vertical-align: top;
+  border-radius: 26.31rpx 26.31rpx 0 0;
+}
+.news .newsCard .newsCardBg {
+  width: 333.33rpx;
+  background-color: #fff;
+  border-radius: 0 0 26.31rpx 26.31rpx;
+  overflow: hidden;
+}
+.news .newsCard .newsCardBg .newsCardTitle {
+  color: #000;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+  margin-top: 12.28rpx;
+  margin-left: 15.79rpx;
+}
+.news .newsCard .newsCardBg .newsCardUser {
+  display: flex;
+}
+.news .newsCard .newsCardBg .newsCardUser .newsCardLogo {
+  width: 43.85rpx;
+  height: 43.85rpx;
+  margin-left: 15.79rpx;
+  margin-top: 7rpx;
+}
+.news .newsCard .newsCardBg .newsCardUser .newsCardName {
+  margin-top: 14rpx;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+}
+.news .newsCard .newsCardBg .newsCardUser .newsCardLike {
+  margin-left: 55rpx;
+  margin-top: 12rpx;
+}
+.news .newsCard .newsCardBg .newsCardUser .newsCardLikeNum {
+  width: 36.84rpx;
+  font-size: 10px;
+  margin-left: 5rpx;
+  margin-top: 17rpx;
+  text-align: center;
+}
+

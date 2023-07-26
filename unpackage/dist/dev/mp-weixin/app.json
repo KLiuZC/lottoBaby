@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/device/device",
+    "pages/find/find",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "lotto",
+    "navigationBarBackgroundColor": "#FFFFCB",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#CBB300",
+    "backgroundColor": "#E1C600",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab_icons/index.png",
+        "selectedIconPath": "static/tab_icons/index-active.png"
+      },
+      {
+        "pagePath": "pages/device/device",
+        "iconPath": "static/tab_icons/devices.png",
+        "selectedIconPath": "static/tab_icons/device-active.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/tab_icons/find.png",
+        "selectedIconPath": "static/tab_icons/find-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

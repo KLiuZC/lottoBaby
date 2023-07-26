@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.healthState {
+  width: 701rpx;
+  height: 193rpx;
+  margin-left: 24.5rpx;
+  margin-top: 31.6rpx;
+  border-radius: 35rpx;
+  background-color: #fff;
+}
+.healthState .back {
+  float: left;
+  margin-left: 16rpx;
+  margin-top: 19.8rpx;
+  font-weight: 700;
+}
+.healthState .forward {
+  float: right;
+  margin-right: 16rpx;
+  margin-top: 19.8rpx;
+  font-weight: 700;
+}
+.healthState .healthTitle {
+  display: inline-block;
+  margin-left: 250rpx;
+  margin-top: 19.3rpx;
+  font-size: 13px;
+  font-weight: 700;
+}
+.healthState .healthDetail .healthCapsule {
+  width: 52.88rpx;
+  height: 101.56rpx;
+  background-color: #00E1D4;
+  border-radius: 35rpx;
+  margin-right: 41rpx;
+  margin-top: 17rpx;
+  box-shadow: 0rpx 7rpx 7rpx rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: inline-block;
+}
+.healthState .healthDetail .healthCapsule .whiteCircle {
+  width: 40.7rpx;
+  height: 40.7rpx;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: 10.16rpx;
+  margin-left: 5.96rpx;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.healthState .healthDetail .healthCapsule .days {
+  font-size: 8px;
+  color: #fff;
+  display: flex;
+  margin-top: 16.25rpx;
+  justify-content: center;
+}
+.healthState .healthDetail .yellow {
+  background-color: #CBB300;
+}
+.healthState .healthDetail .brown {
+  background-color: #9E5F00;
+}
+.healthState .healthDetail .healthCapsule:last-child {
+  margin-right: 0;
+}
+.dataCurve {
+  width: 701rpx;
+  height: 284.21rpx;
+  margin-left: 24.5rpx;
+  margin-top: 35rpx;
+  border-radius: 43.86rpx;
+  background-color: #fff;
+}
+.dataCurve .healthTitle {
+  display: inline-block;
+  margin-left: 287.72rpx;
+  margin-top: 19.3rpx;
+  font-size: 13px;
+  font-weight: 700;
+}
+.dataCurve .healthData {
+  width: 100%;
+  height: 240rpx;
+}
+.tabBar {
+  width: 701rpx;
+  height: 70.175rpx;
+  margin-left: 24.5rpx;
+  margin-top: 35rpx;
+  border-radius: 43.86rpx;
+  background-color: #fff;
+}
+.tabBar .v-tabs {
+  border-radius: 43.86rpx;
+}
+.news {
+  -webkit-column-count: 2;
+          column-count: 2;
+  margin-left: 24.5rpx;
+  margin-right: 24.5rpx;
+  margin-top: 19.3rpx;
+}
+.news .newsCard {
+  display: inline-block;
+  margin-bottom: 36rpx;
+}
+.news .newsCard .newsCardImg .newsCardImgContent {
+  width: 333.33rpx;
+  vertical-align: top;
+  border-radius: 26.31rpx 26.31rpx 0 0;
+}
+.news .newsCard .newsCardBg {
+  width: 333.33rpx;
+  background-color: #fff;
+  border-radius: 0 0 26.31rpx 26.31rpx;
+  overflow: hidden;
+}
+.news .newsCard .newsCardBg .newsCardTitle {
+  color: #000;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+  margin-top: 12.28rpx;
+  margin-left: 15.79rpx;
+}
+.news .newsCard .newsCardBg .newsCardUser {
+  display: flex;
+}
+.news .newsCard .newsCardBg .newsCardUser .newsCardLogo {
+  width: 43.85rpx;
+  height: 43.85rpx;
+  margin-left: 15.79rpx;
+  margin-top: 7rpx;
+}
+.news .newsCard .newsCardBg .newsCardUser .newsCardName {
+  margin-top: 14rpx;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+}
+.news .newsCard .newsCardBg .newsCardUser .newsCardLike {
+  margin-left: 55rpx;
+  margin-top: 12rpx;
+}
+.news .newsCard .newsCardBg .newsCardUser .newsCardLikeNum {
+  width: 36.84rpx;
+  font-size: 10px;
+  margin-left: 5rpx;
+  margin-top: 17rpx;
+  text-align: center;
+}
+
